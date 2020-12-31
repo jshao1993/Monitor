@@ -1,0 +1,24 @@
+{
+  "name": "eagle-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=develop rollup -c -w",
+    "build": "cross-env NODE_ENV=production rollup -c"
+  },
+  "browserslist": [
+    "chrome > 40",
+    "safari >= 7"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.34.2",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
